@@ -1,11 +1,11 @@
-About r-choroplethr
-===================
+About r-choroplethr-feedstock
+=============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-choroplethr-feedstock/blob/main/LICENSE.txt)
 
 Home: www.choroplethr.com
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-choroplethr-feedstock/blob/main/LICENSE.txt)
 
 Summary: Choropleths are thematic maps where geographic regions, such as states, are colored according to some metric, such as the number of people who live in that state. This package simplifies this process by 1. Providing ready-made functions for creating choropleths of common maps. 2. Providing data and API connections to interesting data sources for making choropleths. 3. Providing a framework for creating choropleths from arbitrary shapefiles. 4. Overlaying those maps over reference maps from Google Maps.
 
