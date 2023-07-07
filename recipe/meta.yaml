@@ -1,4 +1,4 @@
-{% set version = "3.7.1" %}
+{% set version = "3.7.2" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/choroplethr_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/choroplethr/choroplethr_{{ version }}.tar.gz
-  sha256: eaf6863415e04651330a98e97aa6e501201a843338b0fb4bd7aba44a8582f973
+  sha256: 116a2b63b2e60787c5f04917e80bb9c6d1dd4f1c9503717d64ea7ad2d0e99cfa
 
 build:
   merge_build_host: true  # [win]
-  number: 2
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
