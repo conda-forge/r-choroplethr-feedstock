@@ -1,4 +1,4 @@
-{% set version = "3.7.3" %}
+{% set version = "4.0.0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/choroplethr_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/choroplethr/choroplethr_{{ version }}.tar.gz
-  sha256: 59dd3456b683a6bdf46ea037c95b58b5c8f3b2c51cd65067fb118ddcd7d07f14
+  sha256: b3f8ccef6c3416c99f64a05ab065dac1fef2852235afc01bcd4dbad39a0a9288
 
 build:
-  number: 1
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
