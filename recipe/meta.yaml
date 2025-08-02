@@ -26,36 +26,26 @@ requirements:
     - r-base
     - r-hmisc
     - r-r6
-    - r-rgooglemaps
-    - r-wdi
-    - r-acs
     - r-dplyr
-    - r-ggmap
     - r-ggplot2 >=2.0.0
-    - r-gridextra
-    - r-rvest
+    - r-ggrepel
+    - r-rnaturalearth
+    - r-sf
     - r-stringr
     - r-tidycensus
-    - r-tidyr
     - r-tigris >=1.0
-    - r-xml2
   run:
     - r-base
     - r-hmisc
     - r-r6
-    - r-rgooglemaps
-    - r-wdi
-    - r-acs
     - r-dplyr
-    - r-ggmap
     - r-ggplot2 >=2.0.0
-    - r-gridextra
-    - r-rvest
+    - r-ggrepel
+    - r-rnaturalearth
+    - r-sf
     - r-stringr
     - r-tidycensus
-    - r-tidyr
     - r-tigris >=1.0
-    - r-xml2
 
 test:
   commands:
