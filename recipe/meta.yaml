@@ -1,4 +1,4 @@
-{% set version = "5.0.1" %}
+{% set version = "5.0.2" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/choroplethr_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/choroplethr/choroplethr_{{ version }}.tar.gz
-  sha256: 344269077874683922fd421875ed3d32a3abc001773a57315d0da1e78f2a799d
+  sha256: f41ed5e302c94ba1b16ae46b0204a3ec185b2ec708d81235caadf07e462da224
 
 build:
   number: 0
@@ -55,8 +55,8 @@ test:
 about:
   home: www.choroplethr.com
   license: BSD-3-Clause
-  summary: Choropleths are thematic maps where geographic regions, such as states, are colored according to some metric, such as the number of people who live in that state. This package simplifies this process by 1. Providing ready-made functions for creating choropleths of common maps. 2. Providing data and API connections
-    to interesting data sources for making choropleths. 3. Providing a framework for creating choropleths from arbitrary shapefiles. 4. Overlaying those maps over reference maps from Google Maps.
+  summary: Choropleths are thematic maps where geographic regions, such as states, are colored according to some metric, such as the number of people who live in that state. This package simplifies this process by 1. Providing ready-made functions for creating choropleths of common maps. 2. Providing data and API 
+    connections to interesting data sources for making choropleths. 3. Providing a framework for creating choropleths from arbitrary shapefiles. 4. Overlaying those maps over reference maps from Google Maps.
   license_family: BSD
   license_file:
     - {{ environ["PREFIX"] }}/lib/R/share/licenses/BSD_3_clause
